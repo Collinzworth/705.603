@@ -1,4 +1,7 @@
 # Welcome to a Readme File
+
+This will be where the semesters work for 705.603 Creating AI Systems fall semester will be stored.
+
 ## Second Welcome
 ### Third Welcome
 
