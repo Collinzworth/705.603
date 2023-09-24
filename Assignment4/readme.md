@@ -1,26 +1,19 @@
-# Welcome to a Readme File
-## Second Welcome
-### Third Welcome
+# Assignment 4 Readme
 
-*italic*
+In this assignment data related to car's ads vs how long the ads sat are analyzed in order to predict the length of time until a car is purchased. Various data transformations are demonstrated. Unwanted columns are dropped, ordinal data is encoded, categorical data is one-hot encoded, and finally numeric features are standardized in order to allow scaling between features.
 
-**bold**
+Docker Hub Link:
+https://hub.docker.com/repository/docker/collinzworth/705.603/general  
+Contains working docker image of the model's service.
 
-* list 1
-* list 2
+Contains files:
 
-- list 1
-- list 2
+*carfactors.py* - Contains the program to create the model, infer inputs, and score the model.  
+*carfactors_service.py* - Allows the model to run as a web service.  
+*cars.csv* - Training data used to train the model.  
+*carfactors.ipynb* - Notebook for showing model outputs and running the service with links. Commentary on the model's performance and methods of improvement are discussed at the end.  
 
-This decribes this particular project and directory level.
 
+### Issues
 
-[GitHub Readme1 Reference](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
-
-[General Readme2 Reference](https://www.mygreatlearning.com/blog/readme-file/#:~:text=When%20you%20create%20a%20repository,be%20easily%20converted%20to%20text)
-
-Bring in local graphic
-![GitHub Logo](./regan.png) 
-
-Bring in remote graphic
-![GitHub Logo](https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png) 
+If an error "object has no attribute 'get_feature_names_out'" is experienced, find/replace *get_feature_names_out* to *get_feature_names* in carsfactors.py. Conflicting versions of sklearn between development environment and container environment are causing this slight difference in functionality. 
