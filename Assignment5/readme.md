@@ -12,7 +12,7 @@ Contains files:
 *natural_language_processing_service.py* - Allows the model to run as a web service.  
 *Restaurant_Reviews.tsv* - Training data used to train the model.  
 *NLPProcessing.ipynb* - Notebook for showing model outputs and running the service with links. Commentary on the model's performance and methods of improvement are discussed at the end.  
-*Car_Service_Notebook* - Notebook for exploring functionality within carfactors.py. Demo output is shown. (not required for assignment)
+*NLP_Explore* - Notebook for exploring functionality within natural_language_processing.py. Demo output is shown. (not required for assignment)
 
 
 ### Issues
