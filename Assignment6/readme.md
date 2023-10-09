@@ -1,26 +1,23 @@
-# Welcome to a Readme File
-## Second Welcome
-### Third Welcome
+# Assignment 6 Readme
 
-*italic*
+In this assignment, images are processed with opencv and object detection is performed. "Assignment6.ipynb" contains loops to alter the input image through scaling, rotation, and noise insertion in order to plot the object detections confidence in chosen object vs the change in parameter. 
 
-**bold**
+Docker Hub Link:
+https://hub.docker.com/repository/docker/collinzworth/705.603/general  
+Contains working docker image of the model's service under tag 705.603:assignment6_1
 
-* list 1
-* list 2
+Contains files:
 
-- list 1
-- list 2
+*objectDetectionService.py* - web service to classify objects in images and give confidence.  
+*Object_Detection.py* - class containing methods to perform object detection.  
+*Assignment6.ipynb* - notebook demonstrating opencv image manipulation and the object detection class. Scaling, rotation, and noise factors are plotted against the image classifiers confidence in it's estimate.  
+*coco.names* - names file required for model. Lists objects that can be detected.  
+*yolov3.weights* - weights for model.  
 
-This decribes this particular project and directory level.
+Additionally, the model will need to be downloaded. Download "yolov3.weights" from:  
+https://pjreddie.com/media/files/yolov3.weights
 
 
-[GitHub Readme1 Reference](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
+### Issues
 
-[General Readme2 Reference](https://www.mygreatlearning.com/blog/readme-file/#:~:text=When%20you%20create%20a%20repository,be%20easily%20converted%20to%20text)
-
-Bring in local graphic
-![GitHub Logo](./regan.png) 
-
-Bring in remote graphic
-![GitHub Logo](https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png) 
+None to report
