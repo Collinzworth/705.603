@@ -1,26 +1,18 @@
-# Welcome to a Readme File
-## Second Welcome
-### Third Welcome
+# Assignment 7 Readme
 
-*italic*
+In this assignment, time series data from carotid and illiac readings are used to predict the age group of patients.
 
-**bold**
+Docker Hub Link:
+https://hub.docker.com/repository/docker/collinzworth/705.603/general  
+Contains working docker image of the model's service under tag 705.603:assignment7_1
 
-* list 1
-* list 2
+Contains files:
 
-- list 1
-- list 2
-
-This decribes this particular project and directory level.
+*time_series_processing_Service.py* - web service to classify age groups based on carotid and illiac readings. 
+*time_series_processing.py* - class containing methods to perform random forest prediction on time series data. 
+*TimeSeriesProcessing.ipynb* - notebook demonstrating time series preprocessing manipulation and the inference. Interpolation, filtering, and scaling are performed on the training data before training the random forest model.
 
 
-[GitHub Readme1 Reference](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
+### Issues
 
-[General Readme2 Reference](https://www.mygreatlearning.com/blog/readme-file/#:~:text=When%20you%20create%20a%20repository,be%20easily%20converted%20to%20text)
-
-Bring in local graphic
-![GitHub Logo](./regan.png) 
-
-Bring in remote graphic
-![GitHub Logo](https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png) 
+None to report
