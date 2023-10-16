@@ -9,7 +9,9 @@ Contains working docker image of the model's service under tag 705.603:assignmen
 Contains files:
 
 *time_series_processing_Service.py* - web service to classify age groups based on carotid and illiac readings. 
+
 *time_series_processing.py* - class containing methods to perform random forest prediction on time series data. 
+
 *TimeSeriesProcessing.ipynb* - notebook demonstrating time series preprocessing manipulation and the inference. Interpolation, filtering, and scaling are performed on the training data before training the random forest model.
 
 
