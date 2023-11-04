@@ -1,26 +1,9 @@
-# Welcome to a Readme File
-## Second Welcome
-### Third Welcome
+# Assignment 9 Readme
+## Files Within
 
-*italic*
+**Assignmnet9_Unsupervised_Model.ipynb** - Notebook containing unsupervised model portion of assignment.
 
-**bold**
-
-* list 1
-* list 2
-
-- list 1
-- list 2
-
-This decribes this particular project and directory level.
+**Assignmnet9_Random_Forest.ipynb** - Notebook containing random forest model portion of assignment.
 
 
-[GitHub Readme1 Reference](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
-
-[General Readme2 Reference](https://www.mygreatlearning.com/blog/readme-file/#:~:text=When%20you%20create%20a%20repository,be%20easily%20converted%20to%20text)
-
-Bring in local graphic
-![GitHub Logo](./regan.png) 
-
-Bring in remote graphic
-![GitHub Logo](https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png) 
+Additionally, transactions.csv is required from the assignment location in canvas (cannot get a direct link to download).
