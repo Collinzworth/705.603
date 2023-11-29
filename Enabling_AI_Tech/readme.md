@@ -11,8 +11,10 @@ The project contained in this github repository is to satisfy the AI Enabling Te
 
 In the demonstrations folders, several supporting notebooks are contained. If you want to run the code within, you will need to pull the notebook the the top level of the project where the summary notebook is contained.
 
-*Genetic_Operator_Demo.ipynb:* Demonstration showing the genetic operators that the project's algorithm uses.
 *GA_Demonstration.ipynb:* Demonstration showing the genetic algorithm iteratively improve itself and a comparison with the original unoptimized graph.
+
+*Genetic_Operator_Demo.ipynb:* Demonstration showing the genetic operators that the project's algorithm uses.
+
 *Random_Search_Compare.ipynb:* Demonstration showing the effectiveness of the genetic algorithm vs a random search.
 
 
