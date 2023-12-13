@@ -4,6 +4,7 @@ Author: Aaron Collinsworth
 Inspired from the infinite remixer, some additional features and testing were added on to test a K-nearest neighbor search of various beats of different songs. With the different beats, additional songs could be formed via different combinations. The result is a new mix of existing songs with similar characteristics. The infinite remixer github and youtube channel is linked below:
 
 https://www.youtube.com/watch?v=zHdn0QgZPGY
+
 https://github.com/musikalkemist/infiniteremixer
 
 The final report is located in *automatic_music_mixer.ipynb*. The *code_demonstration.ipynb* notebook will walk through how the code works and explain how to run it yourself. ffmpeg might be required in order to create faded tracks. This can be downloaded here:
